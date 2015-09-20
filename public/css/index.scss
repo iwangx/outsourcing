@@ -1,0 +1,31 @@
+@import "lib/size";
+@import "lib/reset";
+@import "lib/swiper";
+body{background: #257080;color: #fff;}
+i{display: block;}
+.text-center{text-align: center;}
+.index{background: url(../images/index-bg.jpg) no-repeat;background-size:100% 100%;}
+.top-pad{padding-top: $_50;}
+.page-content{width: 15rem;margin: 0 auto}
+.page2-icon{background: url(../images/bg1.jpg) no-repeat;}
+.page3-icon{background: url(../images/bg2.jpg) no-repeat;}
+.page3-icon,.page2-icon{display: block;height: $_235;background-size: 100% 100%;width: 15rem;}
+.page2-text{padding: $_40 $_60;font-size: $_50;color: #fff;}
+.form{background: #fff;padding: $_30;}
+input{display: block;border:$_1 solid #ccc;height: $_50;width: 100%;margin-bottom: $_20;font-size: $_30;padding: 0 $_10}
+.btn{background: #217fbc;color: #fff;text-align: center;padding: 0;margin: 0;height: $_60;width: 100%;border: 0 none;font-size: $_30}
+article{text-indent: 2em;color: #fff;font-size: $_28;margin-top: $_20;line-height: 1.5}
+.page3 .article-date{text-indent:0;color: rgb(245, 156, 0)}
+.box{display: -webkit-box;-webkit-box-pack: center;-webkit-box-align: center;}
+.page4{padding: 0 $_40;}
+.page4-content{width: 100%;}
+.page4 .icon-flow{margin: $_20 auto}
+.title{font-size:$_60;color: #fff;text-align: center;}
+.icon-flow{background: url(../images/icon-flower.png) no-repeat;display: block;width: $_327;height: $_26;background-size: 100% 100%;margin:  0 auto;}
+.hotel-info{color: #fff;font-size: $_25;text-align: center;padding: 0 $_20;line-height: 2}
+.page6 article{margin-top: $_80; line-height: 1.8}
+.room-list{display: block;width: 80%;margin:  0 auto;text-indent: 0}
+.room-list li{display: -webkit-box}
+.room-list li p{-webkit-box-flex: 1}
+.last-must article{line-height: 1.5;}
+.day .title{font-size:$_52; line-height: 1.2}
