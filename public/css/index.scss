@@ -2,6 +2,9 @@
 @import "lib/reset";
 @import "lib/swiper";
 body{background: #257080;color: #fff;}
+.swiper-container{position: relative}
+.swiper-pagination{position: absolute;}
+.swiper-pagination-bullet{height: $_14;width: $_14;margin: $_7 0}
 i{display: block;}
 .text-center{text-align: center;}
 .index{background: url(../images/index-bg.jpg) no-repeat;background-size:100% 100%;}
@@ -17,8 +20,9 @@ input{display: block;border:$_1 solid #ccc;height: $_50;width: 100%;margin-botto
 article{text-indent: 2em;color: #fff;font-size: $_28;margin-top: $_20;line-height: 1.5}
 .page3 .article-date{text-indent:0;color: rgb(245, 156, 0)}
 .box{display: -webkit-box;-webkit-box-pack: center;-webkit-box-align: center;}
-.page4{padding: 0 $_40;}
+.page4 .title{font-size:$_50; line-height: 1.2}
 .page4-content{width: 100%;}
+.page4-icon{width: 15rem;height:327px;background:url(../images/bg4.png) no-repeat;background-size: 100% 100%;margin-top: $_30;}
 .page4 .icon-flow{margin: $_20 auto}
 .title{font-size:$_60;color: #fff;text-align: center;}
 .icon-flow{background: url(../images/icon-flower.png) no-repeat;display: block;width: $_327;height: $_26;background-size: 100% 100%;margin:  0 auto;}
@@ -29,3 +33,20 @@ article{text-indent: 2em;color: #fff;font-size: $_28;margin-top: $_20;line-heigh
 .room-list li p{-webkit-box-flex: 1}
 .last-must article{line-height: 1.5;}
 .day .title{font-size:$_52; line-height: 1.2}
+.day-list{}
+.day-list p{display: -webkit-box;-webkit-box-align: center;overflow: hidden;text-overflow: ellipsis;-webkit-line-clamp: 2;line-clamp: 2;}
+.day-list li{display:-webkit-box;font-size: $_25;padding: $_20 0}
+.day-list-flex{-webkit-box-flex: 1;padding: 0 $_20;height:$_50 }
+.day-list-flex+p{width: $_120;text-align: center;}
+.page-btn{display: block;width: 100%;height: $_90;margin-top: $_30;font-size: $_35;background: rgba(0,0,0,.7);color:#fff;}
+h2{width: $_300;padding-left: $_30;font-size: $_40;background:#217fbc;line-height: $_70;height: $_70 }
+h3{font-size: $_32;}
+h2,h3{font-weight: 400;margin-top: $_20}
+h3~p{font-size: $_25;line-height: 1.5}
+img{display: block;width: 100%;}
+.page5 .page-content{width: 100%;}
+.img-wrap{position: relative;}
+.img-wrap img{height:$_385; }
+.img-wrap i{background: #257080;opacity: .4;height: $_280;width: $_280;position: absolute;left: 50%;top:50%;transform: rotate(45deg);margin: -$_140  0 0 0 -$_140;}
+.img-wrap p{display: -webkit-box;position: absolute;height: $_280;width: $_260;left: 50%;top:50%;margin: -$_140  0 0 0 -$_130;text-align: center;-webkit-box-pack: center;-webkit-box-align: center}
+.page5 .text-center{line-height: $_160;height: $_160;font-size: $_60;}

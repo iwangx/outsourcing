@@ -11,6 +11,7 @@
     }
     var mySwiper = new Swiper('.swiper-container', {
         speed: 400,
-        direction:"vertical"
+        direction:"vertical",
+        pagination:".swiper-pagination"
     });
 })()

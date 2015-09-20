@@ -56,7 +56,8 @@ input, select {
 button {
   margin: 0;
   padding: 0;
-  border: 0; }
+  border: 0;
+  font-family: Helvetica Neue,Arial,Microsoft Yahei,Helvetica,STHeiTi,Roboto Regular,Roboto,Droid Sans,sans-serif; }
 
 /**
  * Swiper 3.1.2
@@ -511,6 +512,17 @@ body {
   background: #257080;
   color: #fff; }
 
+.swiper-container {
+  position: relative; }
+
+.swiper-pagination {
+  position: absolute; }
+
+.swiper-pagination-bullet {
+  height: 0.35rem;
+  width: 0.35rem;
+  margin: 0.175rem 0; }
+
 i {
   display: block; }
 
@@ -585,11 +597,19 @@ article {
   -webkit-box-pack: center;
   -webkit-box-align: center; }
 
-.page4 {
-  padding: 0 1rem; }
+.page4 .title {
+  font-size: 1.25rem;
+  line-height: 1.2; }
 
 .page4-content {
   width: 100%; }
+
+.page4-icon {
+  width: 15rem;
+  height: 327px;
+  background: url(../images/bg4.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.75rem; }
 
 .page4 .icon-flow {
   margin: 0.5rem auto; }
@@ -636,5 +656,96 @@ article {
 .day .title {
   font-size: 1.3rem;
   line-height: 1.2; }
+
+.day-list p {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  line-clamp: 2; }
+
+.day-list li {
+  display: -webkit-box;
+  font-size: 0.625rem;
+  padding: 0.5rem 0; }
+
+.day-list-flex {
+  -webkit-box-flex: 1;
+  padding: 0 0.5rem;
+  height: 1.25rem; }
+
+.day-list-flex + p {
+  width: 3rem;
+  text-align: center; }
+
+.page-btn {
+  display: block;
+  width: 100%;
+  height: 2.25rem;
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff; }
+
+h2 {
+  width: 7.5rem;
+  padding-left: 0.75rem;
+  font-size: 1rem;
+  background: #217fbc;
+  line-height: 1.75rem;
+  height: 1.75rem; }
+
+h3 {
+  font-size: 0.8rem; }
+
+h2, h3 {
+  font-weight: 400;
+  margin-top: 0.5rem; }
+
+h3 ~ p {
+  font-size: 0.625rem;
+  line-height: 1.5; }
+
+img {
+  display: block;
+  width: 100%; }
+
+.page5 .page-content {
+  width: 100%; }
+
+.img-wrap {
+  position: relative; }
+
+.img-wrap img {
+  height: 9.625rem; }
+
+.img-wrap i {
+  background: #257080;
+  opacity: .4;
+  height: 7rem;
+  width: 7rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: rotate(45deg);
+  margin: -3.5rem 0 0 -3.5rem; }
+
+.img-wrap p {
+  display: -webkit-box;
+  position: absolute;
+  height: 7rem;
+  width: 6.5rem;
+  left: 50%;
+  top: 50%;
+  margin: -3.5rem 0 0 -3.25rem;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center; }
+
+.page5 .text-center {
+  line-height: 4rem;
+  height: 4rem;
+  font-size: 1.5rem; }
 
 /*# sourceMappingURL=index.css.map */
