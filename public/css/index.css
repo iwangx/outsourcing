@@ -512,6 +512,9 @@ body {
   background: #257080;
   color: #fff; }
 
+.swiper-slide {
+  border: 1px solid #000; }
+
 .swiper-container {
   position: relative; }
 
@@ -519,9 +522,9 @@ body {
   position: absolute; }
 
 .swiper-pagination-bullet {
-  height: 0.35rem;
-  width: 0.35rem;
-  margin: 0.175rem 0; }
+  height: 7px;
+  width: 7px;
+  margin: 3px 0; }
 
 i {
   display: block; }
@@ -534,7 +537,7 @@ i {
   background-size: 100% 100%; }
 
 .top-pad {
-  padding-top: 1.25rem; }
+  padding-top: 25px; }
 
 .page-content {
   width: 15rem;
@@ -548,27 +551,27 @@ i {
 
 .page3-icon, .page2-icon {
   display: block;
-  height: 5.875rem;
+  height: 118px;
   background-size: 100% 100%;
-  width: 15rem; }
+  width: 7px; }
 
 .page2-text {
-  padding: 1rem 1.5rem;
-  font-size: 1.25rem;
+  padding: 20px 30px;
+  font-size: 25px;
   color: #fff; }
 
 .form {
   background: #fff;
-  padding: 0.75rem; }
+  padding: 15px; }
 
 input {
   display: block;
-  border: 0.025rem solid #ccc;
-  height: 1.25rem;
+  border: 1px solid #ccc;
+  height: 25px;
   width: 100%;
-  margin-bottom: 0.5rem;
-  font-size: 0.75rem;
-  padding: 0 0.25rem; }
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding: 0 5px; }
 
 .btn {
   background: #217fbc;
@@ -576,16 +579,16 @@ input {
   text-align: center;
   padding: 0;
   margin: 0;
-  height: 1.5rem;
+  height: 30px;
   width: 100%;
   border: 0 none;
-  font-size: 0.75rem; }
+  font-size: 15px; }
 
 article {
   text-indent: 2em;
   color: #fff;
-  font-size: 0.7rem;
-  margin-top: 0.5rem;
+  font-size: 14px;
+  margin-top: 10px;
   line-height: 1.5; }
 
 .page3 .article-date {
@@ -598,44 +601,44 @@ article {
   -webkit-box-align: center; }
 
 .page4 .title {
-  font-size: 1.25rem;
+  font-size: 25px;
   line-height: 1.2; }
 
 .page4-content {
   width: 100%; }
 
 .page4-icon {
-  width: 15rem;
+  width: 7px;
   height: 327px;
   background: url(../images/bg4.png) no-repeat;
   background-size: 100% 100%;
-  margin-top: 0.75rem; }
+  margin-top: 15px; }
 
 .page4 .icon-flow {
-  margin: 0.5rem auto; }
+  margin: 10px auto; }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 30px;
   color: #fff;
   text-align: center; }
 
 .icon-flow {
   background: url(../images/icon-flower.png) no-repeat;
   display: block;
-  width: 8.175rem;
-  height: 0.65rem;
+  width: 165px;
+  height: 13px;
   background-size: 100% 100%;
   margin: 0 auto; }
 
 .hotel-info {
   color: #fff;
-  font-size: 0.625rem;
+  font-size: 13px;
   text-align: center;
-  padding: 0 0.5rem;
+  padding: 0 10px;
   line-height: 2; }
 
 .page6 article {
-  margin-top: 2rem;
+  margin-top: 40px;
   line-height: 1.8; }
 
 .room-list {
@@ -654,7 +657,7 @@ article {
   line-height: 1.5; }
 
 .day .title {
-  font-size: 1.3rem;
+  font-size: 22px;
   line-height: 1.2; }
 
 .day-list p {
@@ -667,44 +670,44 @@ article {
 
 .day-list li {
   display: -webkit-box;
-  font-size: 0.625rem;
-  padding: 0.5rem 0; }
+  font-size: 22px;
+  padding: 10px 0; }
 
 .day-list-flex {
   -webkit-box-flex: 1;
-  padding: 0 0.5rem;
-  height: 1.25rem; }
+  padding: 0 10px;
+  height: 25px; }
 
 .day-list-flex + p {
-  width: 3rem;
+  width: 60px;
   text-align: center; }
 
 .page-btn {
   display: block;
   width: 100%;
-  height: 2.25rem;
-  margin-top: 0.75rem;
-  font-size: 0.875rem;
+  height: 45px;
+  margin-top: 15px;
+  font-size: 13px;
   background: rgba(0, 0, 0, 0.7);
   color: #fff; }
 
 h2 {
-  width: 7.5rem;
-  padding-left: 0.75rem;
-  font-size: 1rem;
+  width: 150px;
+  padding-left: 15px;
+  font-size: 20px;
   background: #217fbc;
-  line-height: 1.75rem;
-  height: 1.75rem; }
+  line-height: 35px;
+  height: 35px; }
 
 h3 {
-  font-size: 0.8rem; }
+  font-size: 16px; }
 
 h2, h3 {
   font-weight: 400;
-  margin-top: 0.5rem; }
+  margin-top: 10px; }
 
 h3 ~ p {
-  font-size: 0.625rem;
+  font-size: 13px;
   line-height: 1.5; }
 
 img {
@@ -718,34 +721,35 @@ img {
   position: relative; }
 
 .img-wrap img {
-  height: 9.625rem; }
+  height: 190px; }
 
 .img-wrap i {
   background: #257080;
   opacity: .4;
-  height: 7rem;
-  width: 7rem;
+  height: 140px;
+  width: 140px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: rotate(45deg);
-  margin: -3.5rem 0 0 -3.5rem; }
+  -webkit-transform: rotate(45deg);
+  margin: -70px  0 0 0 -70px; }
 
 .img-wrap p {
   display: -webkit-box;
   position: absolute;
-  height: 7rem;
-  width: 6.5rem;
+  height: 140px;
+  width: 130px;
   left: 50%;
   top: 50%;
-  margin: -3.5rem 0 0 -3.25rem;
+  margin: -70px  0 0 0 -65px;
   text-align: center;
   -webkit-box-pack: center;
   -webkit-box-align: center; }
 
 .page5 .text-center {
-  line-height: 4rem;
-  height: 4rem;
-  font-size: 1.5rem; }
+  line-height: 80px;
+  height: 80px;
+  font-size: 30px; }
 
 /*# sourceMappingURL=index.css.map */
